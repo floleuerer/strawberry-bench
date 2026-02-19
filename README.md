@@ -127,7 +127,3 @@ uv run python -m benchmark.run_benchmark --model provider/model-name
 ```
 
 All models are called via [OpenRouter](https://openrouter.ai) for consistency.
-
----
-
-Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
