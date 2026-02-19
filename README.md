@@ -130,30 +130,4 @@ All models are called via [OpenRouter](https://openrouter.ai) for consistency.
 
 ---
 
-## Repository Structure
-
-```
-strawberry-bench/
-├── benchmark/              # Benchmark runner
-│   ├── run_benchmark.py    # Main CLI (loads from HuggingFace)
-│   ├── models.py           # OpenRouter model registry
-│   ├── prompts.py          # Prompt templates
-│   ├── scoring.py          # Answer extraction and exact-match scoring
-│   └── results/            # Per-model result JSONs
-├── data/                   # Dataset generation scripts
-│   ├── generate_dataset.py
-│   ├── upload_to_hf.py
-│   └── dataset_card.md
-├── website/                # Leaderboard website
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── data/leaderboard.json
-└── paper/                  # arXiv paper source (LaTeX)
-    ├── main.tex
-    └── references.bib
-```
-
----
-
 Released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
